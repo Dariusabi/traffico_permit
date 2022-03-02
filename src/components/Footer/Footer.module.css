@@ -1,0 +1,246 @@
+.footer {
+    max-width: 90vw;
+    border-radius: 0 90px 0 0;
+    background: #0F264C;
+  }
+  
+  /* .f_mask {
+    width: 1400px;
+    height: 661.51px;
+  } */
+  
+  /* .vector1 {
+    width: 230.48px;
+    margin-top: 100px;
+    border-radius: 140px 140px 0 0;
+    background: yellow;
+  } */
+  
+  /* .vector2 {
+    width: 186px;
+    height: 93px;
+    margin-left: 230px;
+    margin-top: -90px;
+    border-radius: 100px 100px 0 0;
+    background: #FCDDD4;
+  } */
+  
+  .f_trek {
+    position: absolute;
+    width: 350px;
+    height: 190px;
+    margin-top: -188px;
+    animation-duration: 5s;
+    animation-name: slide_f;
+  }
+  
+  @keyframes slide_f {
+    from {
+      left: -400px;
+      width: 350px;
+      height: 190px;
+    }
+  
+    to {
+      left: 0;
+      width: 350px;
+      height: 190px;
+    }
+  }
+  
+  .form {
+    max-width: 100vw;
+    margin: 0 60px 200px 0;
+    padding-left: 60px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .provide {
+    width: 370px;
+    height: 140px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    border-left: solid 10px #ED4D47;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .provide p {
+    width: 330px;
+    height: 140px;
+    margin-left: 20px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+  
+    color: #FFFFFF;
+  }
+  
+  .contact {
+    width: 420px;
+    height: 350px;
+    margin-top: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .f_started {
+    width: 50%;
+    height: 50px;
+    margin-top: 25px;
+    border: 1px solid #EE4D47;
+    background-color: #EE4D47;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .f_started p {
+    width: 127px;
+    height: 19px;
+  
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+  
+    color: #FFFFFF;
+  }
+  
+  .arrow {
+    width: 29.5px;
+    height: 12.35px;
+  }
+  
+  .name {
+    width: 80%;
+    height: 60px;
+    margin-top: 5px;
+    padding-left: 20px;
+    background: #FFFFFF;
+    border: 2px solid rgba(238, 77, 71, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    /* box-shadow: 1px 25px 40px  #f8dad9; */
+  }
+  
+  .email {
+    width: 80%;
+    height: 60px;
+    margin-top: 5px;
+    padding-left: 20px;
+    background: #FFFFFF;
+    border: 2px solid rgba(238, 77, 71, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  
+  .contact label {
+    width: 76%;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 40px;
+    color: #402B2B;
+  }
+  
+  .f_menu {
+    max-width: 90%;
+    height: 19px;
+    padding-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .f_logo {
+    margin-left: 120px;
+    width: 150px;
+    height: 36px;
+  }
+  
+  .f_menu ul {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .f_menu li {
+    width: 90px;
+    height: 14px;
+    font-family: Rubik;
+    font-size: 17px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    list-style-type: none;
+    color: #EE4D47;
+  }
+
+  .f_line {
+      max-width: 79.5%;
+      height: 70px;
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .copyright {
+    height: 40px;
+    padding: 24px 0 0 125px;
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: 19px;
+    color: #402B2B;
+  }
+  
+  .social {
+    width: 160px;
+    height: 36px;
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .provide {
+      margin-left: 30px;
+    }
+    .contact {
+      max-width: 375px;
+    }
+    .name {
+      max-width: 290px;
+    }
+    .email {
+      max-width: 290px;
+    }
+    .f_logo {
+      width: 115px;
+      height: 25px;
+      padding-left: 22px;
+      margin-right: 20px;
+    }
+    .f_menu {
+      margin-left: -105px;
+    }
+    .copyright {
+      padding-left: 37px;
+    }
+  }

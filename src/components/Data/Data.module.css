@@ -1,0 +1,11 @@
+.all_q {
+  max-width: 400px;
+  height: 80px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: .5em 3em;
+  padding: 0 .8em;
+  }

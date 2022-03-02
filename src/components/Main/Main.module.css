@@ -1,0 +1,77 @@
+.main {
+  width: 100vw;
+  margin-top: 350px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.aboutUs {
+  width: 470px;
+  height: 476px;
+  margin-left: 100px;
+}
+
+.aboutUs p:nth-child(1) {
+  margin-bottom: 20px;
+  font-family: Rubik;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: .1px;
+  color: #EE4D47;
+}
+
+.aboutUs p:nth-child(2) {
+  font-family: Rubik;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 40px;
+  overflow: auto;
+  color: #402B2B
+}
+
+.request {
+  width: 460px;
+  /* height: 150px; */
+  margin-top: 50px;
+  padding: 1em;
+  border-radius: 5px;
+  border-left: 8px #ED4D47 solid;
+  background-color: #FCDDD4;
+}
+
+.request span {
+  width: 90vw;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: #402B2B;
+}
+
+.illustration {
+  width: 500px;
+  height: 400px;
+}
+
+@media only screen and (max-width: 800px)  {
+  .main {
+    margin-top: 150px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .aboutUs {
+    width: 380px;
+    margin-left: .6em;
+  }
+  .request {
+    width: 100%;
+  }
+  .illustration {
+    width: 350px;
+    height: 270px;
+  }
+}

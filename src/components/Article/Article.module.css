@@ -1,0 +1,153 @@
+.article {
+    max-width: 85vw;
+    /* text-align: right; */
+    align-items: flex-end;
+    margin: 0 0 300px auto;
+    padding: 70px 0;
+    background: #FDEDE8;
+    border-radius: 120px 0 0 0;
+  }
+  
+  .last_q {
+    width: 85vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 4em;
+  }
+  
+  .questions {
+    max-width: 370px;
+    height: 120px;
+    margin: 4em 1em;  
+  }
+  
+  .questions p:nth-child(1) {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+    color: #EE4D47;
+    }
+  
+  .questions p:nth-child(2) {
+    margin: 1em 0;
+    font-family: DM Serif Display;
+    font-size: 1.7em;
+    color: #402B2B;
+  }
+
+  .faq {
+    width: 400px;
+    height: 280px;
+    margin-top: 2em;
+  }
+  
+  .api {
+    max-width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  
+  .api p {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #402B2B;
+  }
+  
+  .plus {
+    width: 2px;
+    height: 17px;
+    background-color: #EE4D47;
+    cursor: pointer;
+  }
+
+  .min {
+    width: 1.3em;
+    height: 1.3em;
+    margin-left: 1.8em;
+    cursor: pointer;
+  }
+  
+  .minus {
+    width: 20px;
+    height: 3px;
+    margin-top: .5em;
+    background-color: #EE4D47;
+    cursor: pointer; 
+  }
+  
+  .all_q {
+    width: 400px;
+    height: 80px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: .5em 1em;
+    padding: 0 .8em;
+  }
+  
+  .result {
+    width: 400px;
+    height: 80px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    margin: .5em 1em;
+    display: block;
+  }
+  
+  
+  .load {
+    width: 400px;
+    height: 80px;
+    margin: .5em 1em;
+    border-radius: 10px;
+    background: #e29a98;
+    opacity: 0.4;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .load:active {
+  background-color: brown;
+  }
+
+
+  @media only screen and (max-width: 1350px) {
+    .api {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width: 1001pxpx) {
+    .faq {
+      margin-top: 5em;
+    }
+    .last_q {
+      display: flex;
+      justify-content: center;
+    }
+    .api p {
+      font-size: 5;
+    }
+    .all_q {
+      width: 100%;
+    }
+  }

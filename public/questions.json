@@ -1,0 +1,47 @@
+[
+    {
+        "id": 0,
+        "question": "What is the currency of Denmark?",
+        "answer": "Krone"
+    },
+    {
+        "id": 1,
+        "question": "Which Tennis Grand Slam is played on a clay surface?",
+        "answer": "The French Open (Roland Garros)"
+    },
+    {
+        "id": 2,
+        "question": "What was the Turkish city of Istanbul called before 1930?",
+        "answer": "Constantinople"
+    },
+    {
+        "id": 3,
+        "question": "What is the capital of New Zealand?",
+        "answer": "Wellington"
+    },
+    {
+        "id": 4,
+        "question": "Which football club plays its home games at Loftus Road?",
+        "answer": "Queen's Park Rangers"
+    },
+    {
+        "id": 5,
+        "question": "What sport did David Beckham play?",
+        "answer": "Football"
+    },
+    {
+        "id": 6,
+        "question": "What’s longer, a nautical mile or a mile?",
+        "answer": "Nautical mile (it’s 1.15 miles)"
+    },
+    {
+        "id": 7,
+        "question": "Gary and Martin Kemp were in what band?",
+        "answer": "Spandau Ballet"
+    },
+    {
+        "id": 8,
+        "question": "In what decade was pop icon Madonna born?",
+        "answer": "1950s (1958)"
+    }
+]

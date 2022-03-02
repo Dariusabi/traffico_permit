@@ -1,0 +1,150 @@
+.header {
+    width: 100vw;
+    height: 1000px;
+    background-image: url('../../images/scene.png');
+    background-size: cover;
+  }
+  
+  .navbar {
+    max-width: 1351px;
+    margin-top: -4em;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 5em 5em 1.5em 5em;
+    background-color: rgb(247, 183, 171);
+  }
+  
+  .logo {
+    width: 212px;
+    height: 50px;
+    margin: 0 0 .3em 6.5em;
+  }
+  
+  .get_started {
+      width: 220px;
+      height: 60px;
+      margin: 70px 0 0 180px;
+      background: #EE4D47;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      cursor: pointer;
+  }
+
+  .get_started span {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+  
+  .mobel {
+    left: -10px;
+    margin-top: 150px;
+    animation-duration: 5s;
+    animation-name: slidetrek;
+  }
+  
+  @keyframes slidetrek {
+    from {
+      margin-left: -600px;
+      width: 600px;
+      height: 397px;
+    }
+  
+    to {
+      margin-left: 62,5%;
+      width: 600px;
+      height: 397px;
+    }
+  }
+  
+  .union { 
+      width: 29.5px;
+      height: 12.35px;
+  }
+  
+  .title {
+      width: 941px;
+      height: 300px;
+      font-family: DM Serif Display;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 100px;
+      line-height: 100%;
+      padding-left: 180px;
+      margin-top: 1em;
+  
+      color: #FFFFFF;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      /* margin-left: 30px; */
+    }
+    .logo {
+      width: 180px;
+      height: 40px;
+      margin-left: 2em;
+      margin-top: .2em;
+    }
+    .title {
+      width: 50%;
+      margin-top: 1em;
+      padding-left: 110px;
+      display: flex;
+      align-items: center;
+      font-size: 60px;
+    }
+    .get_started {
+      margin-left: 110px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+    }
+    .logo {
+      width: 150px;
+      height: 35px;
+      margin-left: -2.4em;
+      margin-top: .8em;
+    }
+    .title {
+      width: 50%;
+      padding-left: 40px;
+      display: flex;
+      align-items: center;
+      font-size: 45px;
+    }
+    .get_started {
+      margin-left: 40px;
+    }
+    .mobel {
+      width: 400px;
+      height: 260px;
+    }
+    @keyframes slidetrek {
+      from {
+        margin-left: -600px;
+        width: 400px;
+        height: 260px;
+      }
+    
+      to {
+        margin-left: 62,5%;
+        width: 400px;
+        height: 260px;
+      }
+    }
+  }
